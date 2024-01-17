@@ -3,7 +3,7 @@ from demographic_filtering import output
 from content_filtering import get_recommendations
 import pandas as pd
 
-movies_data = pd.read_csv('D:/Documentos/BYJUS/AulasVScode/Aulas/Alunos/Aluno 0/Python/C141 - C142/final.csv')
+movies_data = pd.read_csv('final.csv')
 
 app = Flask(__name__)
 

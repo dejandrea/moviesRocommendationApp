@@ -3,7 +3,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 # criando o dataframe
-df = pd.read_csv('D:/Documentos/BYJUS/AulasVScode/Aulas/Alunos/Aluno 0/Python/C141 - C142/final.csv')
+df = pd.read_csv('final.csv')
 
 # a função notna mapeia elementos existentes como elementos verdadeiros e não existentes como falsos
 # esta operação remove as linhas mapeadas para falso
